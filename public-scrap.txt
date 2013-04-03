@@ -1,0 +1,4 @@
+# Lucene related commands
+export CLASSPATH=$CLASSPATH:core/lucene-core-4.2.0.jar:analysis/common/lucene-analyzers-common-4.2.0.jar:demo/lucene-demo-4.2.0.jar:queryparser/lucene-queryparser-4.2.0.jar
+java -classpath $CLASSPATH org.apache.lucene.demo.IndexFiles -docs docs/demo/src-html
+java -classpath $CLASSPATH org.apache.lucene.demo.SearchFiles
